@@ -2,6 +2,10 @@
 
 {% block content %}
 <form action="" method="POST">{% csrf_token %}
-    <input type="submit" value="delete">
+{{ form.title }}
+{{ form.memo }}  
+{{ form.priority }}  
+{{ form.duedate }}      
+    <input type="submit" value="update">
 </form>
 {% endblock content %}

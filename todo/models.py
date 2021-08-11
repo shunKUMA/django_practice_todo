@@ -2,7 +2,7 @@ from django.db import models
 
 # Create your models here.
 
-CHOICE = ('denger', 'high'), ('warning', 'normal'), ('primary', 'low')
+CHOICE = ('danger', 'high'), ('warning', 'normal'), ('primary', 'low')
 
 
 class TodoModel(models.Model):

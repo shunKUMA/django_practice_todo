@@ -20,7 +20,8 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='todomodel',
             name='priority',
-            field=models.CharField(choices=[('denger', 'high'), ('warning', 'normal'), ('primary', 'low')], default='danger', max_length=50),
+            field=models.CharField(choices=[('danger', 'high'), ('warning', 'normal'), (
+                'primary', 'low')], default='danger', max_length=50),
             preserve_default=False,
         ),
     ]
