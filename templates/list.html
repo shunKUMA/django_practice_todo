@@ -1,8 +1,5 @@
-{% for item in object_list %}
+{% extends 'base.html' %}
 
-<ul>
-<li>{{ item.title }}</li>    
-<li>{{ item.memo }}</li>
-</ul>
-
-{% endfor %}
+{% block header %}
+this is list
+{% endblock header %}
